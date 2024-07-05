@@ -126,9 +126,11 @@ let res = [1,2,3,4,5,6,7,8]
 // function createArr(arr){
 //    return arr.map(valeu => {
 //       if(valeu%2==0){
-//          Math.pow(valeu, 2)
+//          return Math.pow(valeu, 2)
+//       } else{
+//         return Math.pow(valeu, 3)
 //       }
-//       return Math.pow(valeu,3)
+     
 //    });
     
 // };
